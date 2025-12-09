@@ -2,8 +2,13 @@ h1 {
     color: goldenrod;
 }
 
+* {
+    outline: 1px solid red;
+}
+
 body {
-    height: 95vh;
+    height: 100vh;
+    margin: 0;
 }
 
 .nav {
@@ -14,6 +19,15 @@ body {
 .main {
     height: 80%;
     background-color: white;
+    display: flex;
+}
+
+.main-left {
+    width: 80%;
+}
+
+.main-right {
+    width: 20%;
 }
 
 .footer {
