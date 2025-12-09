@@ -1,9 +1,9 @@
 h1 {
-    color: goldenrod;
+    
 }
 
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -13,7 +13,8 @@ body {
 
 .nav {
     height: 10%;
-    background-color: gray;
+    background-color: yellow;
+    border-bottom: 3px solid black;
 }
 
 .main {
@@ -28,9 +29,22 @@ body {
 
 .main-right {
     width: 20%;
+    background-color: black;
+    /* border: 3px solid yellow; */
 }
 
 .footer {
     height: 10%;
-    background-color: bisque;
+    background-color: yellow;
+    border-top: 3px solid black;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
 }
