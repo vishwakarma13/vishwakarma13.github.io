@@ -1,9 +1,12 @@
 h1 {
-    
+    color: white;
+    margin-left: 20px;
+
 }
 
 * {
     /* outline: 1px solid red; */
+    font-family: monospace;
 }
 
 body {
@@ -13,30 +16,35 @@ body {
 
 .nav {
     height: 10%;
-    background-color: yellow;
-    border-bottom: 3px solid black;
+    /* background-color: yellow; */
+    /* border-bottom: 3px solid black; */
 }
 
 .main {
     height: 80%;
     background-color: white;
     display: flex;
+    justify-content: space-around;
+    
 }
 
 .main-left {
-    width: 80%;
+    width: 70%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    border-radius: 20px;
 }
 
 .main-right {
     width: 20%;
-    background-color: black;
-    /* border: 3px solid yellow; */
+    background-color: rgb(36, 35, 35);
+    border-radius: 20px;
 }
 
 .footer {
     height: 10%;
-    background-color: yellow;
-    border-top: 3px solid black;
+    /* background-color: yellow; */
+    /* border-top: 3px solid black; */
 }
 
 p {
