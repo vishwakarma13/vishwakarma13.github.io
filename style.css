@@ -1,3 +1,22 @@
-h2 {
+h1 {
     color: goldenrod;
+}
+
+body {
+    height: 95vh;
+}
+
+.nav {
+    height: 10%;
+    background-color: gray;
+}
+
+.main {
+    height: 80%;
+    background-color: white;
+}
+
+.footer {
+    height: 10%;
+    background-color: bisque;
 }
