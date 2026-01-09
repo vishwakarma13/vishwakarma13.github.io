@@ -5,7 +5,7 @@ h1 {
 }
 
 * {
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     font-family: monospace;
 }
 
@@ -39,12 +39,20 @@ body {
     width: 20%;
     background-color: rgb(36, 35, 35);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-pic {
+    height: 20%;
+}
+
+.info {
+    height: 80%;
 }
 
 .footer {
     height: 10%;
-    /* background-color: yellow; */
-    /* border-top: 3px solid black; */
 }
 
 p {
