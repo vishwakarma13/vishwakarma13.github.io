@@ -32,6 +32,8 @@ body {
     background-size: cover;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .main-right {
@@ -62,4 +64,9 @@ p {
 
 h2 {
     color: white;
+}
+
+a {
+    color: white;
+    font-weight: bold;
 }
